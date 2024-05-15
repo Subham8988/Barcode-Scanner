@@ -1,0 +1,66 @@
+/* Styles for the scanner container */
+.scanner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styles for the scan button */
+#scan-button {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Styles for the scanner content */
+.scanner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Styles for the camera view */
+.camera-view {
+    width: 48%;
+    height: 400px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+/* Styles for the barcode info container */
+.barcode-info {
+    margin-left: 643px;
+    width: 39%;
+    padding: 59px;
+    border-radius: 21px;
+    background-color: #e9e9c1;
+    margin-top: -395px;}
+
+/* Styles for the barcode image */
+#barcode-image {
+    width: 50%;
+    margin-top: 63px;
+    margin-right: -43px;
+}
+#loading-image {
+    width: 50%;
+    margin-top: 63px;
+    margin-right: -43px;
+}
+
+/* Styles for the barcode value */
+.barcode-value {
+    font-size: 18px;
+    color: #333;
+}
+
+
+

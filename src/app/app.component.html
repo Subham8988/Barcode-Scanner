@@ -1,0 +1,41 @@
+<!-- <button id="scan-button" (click)="openCamera()">Scan Barcode</button>
+
+<ng-container *ngIf="!cameraOpen">
+    <div  class="camera-view"><p>Please click  button to scan bar code</p></div>
+</ng-container>
+
+<ng-container *ngIf="cameraOpen">
+    <div id="scanner-container" class="camera-view"></div>
+</ng-container>
+<div class="barcode-info">
+    <ng-container *ngIf="codevailabel">
+        <img src="" alt="" id="barcode-image" />
+        <p id="barcode-value"></p>
+    </ng-container>
+    <ng-container *ngIf="!codevailabel">
+        <img src="../assets/loading.png" alt="" id="barcode-image" />
+        <p id="barcode-value"></p>
+    </ng-container>
+
+</div> -->
+<button id="scan-button" (click)="openCamera()">Scan Barcode</button>
+
+<ng-container *ngIf="!cameraOpen">
+    <div  class="camera-view"><p>Please click  button to scan bar code</p></div>
+</ng-container>
+<ng-container *ngIf="cameraOpen">
+    <div id="scanner-container" class="camera-view"></div>
+</ng-container>
+
+
+<div class="barcode-info">
+    <!-- <ng-container *ngIf="codevailabel; else loadingTemplate"> -->
+        <img src="" alt="" id="barcode-image" />
+        <p id="barcode-value"></p>
+    <!-- </ng-container> -->
+    <!-- <ng-template #loadingTemplate> -->
+      <!-- <img src="assets/loading.png" alt="Loading" id="loading-image" />
+      <p>Loading...</p>
+    </ng-template> -->
+  </div>
+  
